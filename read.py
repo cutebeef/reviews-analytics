@@ -30,3 +30,7 @@ for d in data:
 print('一共有', len(good), '筆留言提到good')
 print(good[0])
 print(good[1])
+
+good = [d for d in data if 'good' in d] 
+#快寫法 最前面的d就是append(d)中那個d,也可不用d,放不同東西進清單
+print(good[2])
